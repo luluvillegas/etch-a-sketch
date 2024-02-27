@@ -24,8 +24,8 @@ let totalSquares = defaultSquaresPerSide * defaultSquaresPerSide;
 
 createGrid(defaultSquaresPerSide);
 
-const startBtn = document.querySelector(`.start-btn`);
-startBtn.addEventListener(`click`, () => {
+const sizeBtn = document.querySelector(`.size-btn`);
+sizeBtn.addEventListener(`click`, () => {
   let squaresPerSide = prompt(
     `How many squares per side? (between 1 and 100):`,
     32
