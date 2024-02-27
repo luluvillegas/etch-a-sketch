@@ -7,14 +7,46 @@
 body {
   background-color: rgba(249, 249, 226, 0.677);
   font-family: "Kode Mono", monospace;
-  color: rgb(67, 69, 68);
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 91, 91);
+  height: 750px;
+  width: 1100px;
+  border-radius: 70px;
+  gap: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  min-height: 100vh;
+  background-color: rgb(250, 248, 248);
+  height: 65%;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.panel {
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .square {
@@ -27,17 +59,29 @@ body {
   background-color: rgb(67, 69, 68);
 }
 
-.control-panel {
+.button-div {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  justify-content: center;
   align-items: center;
-  padding: 20px 0;
-  background-color: rgb(201, 216, 232);
-  border-radius: 0 0 30px 30px;
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.5);
+  border-radius: 100px;
+  min-width: 132px;
+  min-height: 132px;
 }
 
-.size-btn {
+.control-btn {
+  min-height: 120px;
+  min-width: 120px;
+  font-size: 16px;
+  font-family: "Kode Mono", monospace;
+  border-radius: 100px;
+  border: none;
+  background-color: rgb(250, 248, 248);
+  color: rgb(118, 93, 91);
+  transition: transform 300ms ease-in-out;
+}
+
+/*.size-btn {
   min-height: 36px;
   min-width: 150px;
   font-size: 16px;
@@ -45,7 +89,7 @@ body {
   border: solid 1.5px;
   background-color: rgb(241, 248, 255);
   transition: transform 300ms ease-in-out;
-}
+}*/
 
 .size-btn:hover {
   transform: scale(1.03);
@@ -53,4 +97,5 @@ body {
 
 .title {
   font-size: 40px;
+  color: rgb(229, 199, 134);
 }

@@ -30,11 +30,12 @@ sizeBtn.addEventListener(`click`, () => {
     `How many squares per side? (between 1 and 100):`,
     32
   );
-  if (squaresPerSide < 1 || squaresPerSide > 100) {
+  if (squaresPerSide > 1 && squaresPerSide < 100) {
+    cleanGrid();
+    createGrid(squaresPerSide);
+  } else {
     alert(
       `The number of squares per side must be bigger than 1 and smaller than 100!`
     );
   }
-  cleanGrid();
-  createGrid(squaresPerSide);
 });
