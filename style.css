@@ -55,10 +55,6 @@ body {
   flex-basis: 6%;
 }
 
-.draw {
-  background-color: rgb(67, 69, 68);
-}
-
 .button-div {
   display: flex;
   justify-content: center;
