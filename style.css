@@ -81,17 +81,7 @@ body {
   transition: transform 300ms ease-in-out;
 }
 
-/*.size-btn {
-  min-height: 36px;
-  min-width: 150px;
-  font-size: 16px;
-  border-radius: 10px;
-  border: solid 1.5px;
-  background-color: rgb(241, 248, 255);
-  transition: transform 300ms ease-in-out;
-}*/
-
-.size-btn:hover {
+.control-btn:hover {
   transform: scale(1.03);
 }
 

@@ -39,3 +39,8 @@ sizeBtn.addEventListener(`click`, () => {
     );
   }
 });
+
+const colotBtn = document.querySelector(`.color-btn`);
+sizeBtn.addEventListener(`click`, () => {
+  console.log(`change color`);
+});
