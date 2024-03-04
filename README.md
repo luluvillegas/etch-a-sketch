@@ -1,5 +1,5 @@
 # Etch-a-sketch
-Project developed for TOP fundamentals course using JavaScript
+Project developed for TOP fundamentals course using JavaScript. You can try it HERE: https://luluvillegas.github.io/etch-a-sketch/
 <br>
 <br>
 ![Screenshot 2024-03-04 at 2 26 03 PM](https://github.com/luluvillegas/etch-a-sketch/assets/28613689/8116bd5c-bd15-466a-a65d-83449a4bfd9f)
